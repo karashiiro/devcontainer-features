@@ -1,5 +1,6 @@
 # Dev Container Features (kara edition)
-Built off of [the example](https://github.com/devcontainers/feature-starter).
+
+Built off of [the example repo](https://github.com/devcontainers/feature-starter).
 
 ## Features
 
@@ -10,6 +11,14 @@ CIL tools!
 * `ilasm`
 * `ildasm`
 * An IL syntax highlighter for VS Code ([link](https://marketplace.visualstudio.com/items?itemName=soltys.vscode-il))
+
+### `rustc-private`
+
+Rust toolchain components for working with `rustc-private`.
+
+* `rust-src`
+* `rustc-dev`
+* `llvm-tools-preview`
 
 ## Repo and Feature Structure
 
