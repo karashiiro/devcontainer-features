@@ -1,0 +1,27 @@
+{
+    "name": "ilasm",
+    "id": "ilasm",
+    "version": "1.0.0",
+    "description": "CIL assembly tools (ilasm & ildasm)",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "7.0.0",
+            "description": "Enter a tool version"
+        }
+    },
+    "containerEnv": {
+        "ILASM_ROOT": "/usr/share/ilasm",
+        "PATH": "$PATH:$ILASM_ROOT"
+    },
+    "customizations": {
+		"vscode": {
+			"extensions": [
+				"soltys.vscode-il"
+			]
+		}
+	},
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
