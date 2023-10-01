@@ -1,0 +1,10 @@
+{
+    "name": "rustc-private",
+    "id": "rustc-private",
+    "version": "1.0.0",
+    "description": "Rust toolchain components for working with rustc-private",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/rust"
+    ]
+}
